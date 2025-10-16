@@ -51,3 +51,22 @@ def diamond(n):
 diamond(5)
 
 #different way of doing it
+
+def diamond(n):
+    result = ""
+    
+    for i in range (1,n):
+        star = "*" * (2*i-1)
+        space = " " * (n-1)
+        result += space + star + "\n"
+
+    for i in range (n-1,0,-1): #start at n-1 uptil 0, with increments of -1
+        star = "*" * (2*i-1)
+        space = " " * (n-1)
+        result += space + star + "\n"
+        
+         
+    print(result)
+
+    return result.rstrip()
+diamond(5)
