@@ -25,7 +25,7 @@ import math
 
 ##################################################
 
-# def triangle(n):
+# def triangle(n):fbfg
 #     result = ""
 #     for i in range (1, n+1):
 #             result += " " * (n-i) + "*" * (2*i-1) + "\n"
